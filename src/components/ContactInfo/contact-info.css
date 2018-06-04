@@ -1,6 +1,29 @@
 #contact-info {
-	text-align: right;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 }
-#contact-info .info {
-	line-height: 0.4em;
+
+#contact-info .info .content {
+	float: right;
+	color: var(--neutral-color);
+}
+
+#contact-info .info .content a {
+	color: var(--secondary-color);
+}
+
+#contact-info .info .content a:visited {
+	color: var(--neutral-color);
+}
+#contact-info .info .content a:hover {
+	color: var(--primary-color);
+}
+
+#contact-info .info .icon {
+	float: right;
+	margin-left: 5px;
+	color: var(--secondary-color);
 }
