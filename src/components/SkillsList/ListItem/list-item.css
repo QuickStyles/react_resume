@@ -25,3 +25,8 @@
 	left: -1em;
 	color: var(--secondary-color);
 }
+
+.list-item .nested-list-item {
+	max-height: 250px;
+	overflow: auto;
+}

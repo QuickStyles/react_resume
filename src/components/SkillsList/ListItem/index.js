@@ -5,7 +5,7 @@ import './list-item.css';
 const computeItems = (items, downVote, upVote, filterSkill) => {
 	if(items) {
 		return(
-			<ul>
+			<ul className='nested-list-item'>
 				{
 					items.map((item, i) => {
 						return(
