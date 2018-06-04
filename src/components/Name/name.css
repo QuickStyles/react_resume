@@ -1,8 +1,7 @@
-#name-container {
-	margin: auto;
+#name-container .name {
+	color: var(--primary-color);
 }
 
-#name-container > p {
-	line-height: .4em;
-	padding: 0;
+#name-container .title {
+	color: var(--secondary-color);
 }
