@@ -27,7 +27,7 @@ html {
 body {
   margin: 0;
   padding: 20px;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   height: inherit;
   background-color: var(--secondary-color);
   min-height: 1200px;
