@@ -30,3 +30,7 @@
 	max-height: 250px;
 	overflow: auto;
 }
+
+.exp-container .exp-button button {
+	color: var(--tertiary-color-one);
+}
