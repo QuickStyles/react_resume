@@ -15,11 +15,11 @@ function ContactInfo() {
 			</div>
 			<div className='info'>
 				<span className='content icon'><i className='fab fa-linkedin'/></span>
-				<span className='content'><a href='https://www.linkedin.com/in/brandonywlam'>in/brandonywlam</a></span>
+				<span className='content'><a target='_blank' href='https://www.linkedin.com/in/brandonywlam'>in/brandonywlam</a></span>
 			</div>
 			<div className='info'>
 				<span className='content icon'><i className='fab fa-github'/></span>
-				<span className='content'><a href='https://github.com/QuickStyles'>github.com/QuickStyles</a></span>
+				<span className='content'><a target='_blank' href='https://github.com/QuickStyles'>github.com/QuickStyles</a></span>
 			</div>
 		</div>
 	)
