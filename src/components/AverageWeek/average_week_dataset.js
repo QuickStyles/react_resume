@@ -1,32 +1,45 @@
+const HOURS_IN_DAY = 0.0416667;
+const HOURS_IN_WEEK = 168;
 const data = {
 	labels: [
 		'Eating',
-		'Trying to social life',
+		'Social-Lifing',
 		'Programming',
 		'Sleeping',
 		'Reading',
-		'Pushups',
+		'Gyming',
 		'Gaming'
 	],
 	datasets:[
 		{
-			data: [16, 15, 65, 40, 12, 12, 8],
+			// data: [16, 15, 65, 40, 12, 12, 8], //hours/week
+			data: [(16/HOURS_IN_WEEK/HOURS_IN_DAY), (15/HOURS_IN_WEEK/HOURS_IN_DAY), (65/HOURS_IN_WEEK/HOURS_IN_DAY), (40/HOURS_IN_WEEK/HOURS_IN_DAY), (12/HOURS_IN_WEEK/HOURS_IN_DAY), (12/HOURS_IN_WEEK/HOURS_IN_DAY),(8/HOURS_IN_WEEK/HOURS_IN_DAY)], //hours/day
+			// backgroundColor: [
+			// 	'#FF6384',
+			// 	'#36A2EB',
+			// 	'#FFCE56',
+			// 	'#BC412B',
+			// 	'#DC602E',
+			// 	'#D7B49E',
+			// 	'#B8D5B8',
+			// ],
 			backgroundColor: [
-				'#FF6384',
-				'#36A2EB',
-				'#FFCE56',
-				'#BC412B',
-				'#DC602E',
-				'#D7B49E',
-				'#B8D5B8',
+				'#3D3230',
+				'#51423F',
+				'#65534F',
+				'#79635F',
+				'#8D746F',
+				'#A1847E',
+				'#B5958E',
 			],
 			hoverBackgroundColor: [
-				'#FF6384',
-				'#36A2EB',
-				'#FFCE56',
-				'#DC602E',
-				'#D7B49E',
-				'#B8D5B8',
+				'#DDB5AD',
+				'#DDB5AD',
+				'#DDB5AD',
+				'#DDB5AD',
+				'#DDB5AD',
+				'#DDB5AD',
+				'#DDB5AD',
 			]
 		}
 	]
