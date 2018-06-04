@@ -6,7 +6,7 @@ const Education = () => {
 	return(
 		<div id='education-component'>
 			<ul>
-				<li>
+				<li style={{'padding-left':0}}>
 					<span className='education-name'>Full Stack Web Development Certificate</span>
 					<ul>
 						<li>
