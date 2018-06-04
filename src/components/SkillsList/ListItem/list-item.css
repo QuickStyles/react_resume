@@ -1,0 +1,28 @@
+.list-item p {
+	display: inline;
+	line-height: 2em;
+}
+
+.list-item .exp-container {
+	/* margin-left: 10px; */
+}
+
+.exp-number {
+	background-color: yellow;
+	border: 0.5px dotted yellow;
+	border-radius: 50%;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px dotted var(--secondary-color);
+}
+
+.list-item > .item-name {
+	position: relative;
+	left: -.5em;
+}
+
+.list-item .icon-wrapper {
+	position: relative;
+	left: -1em;
+	color: var(--icon-color);
+}

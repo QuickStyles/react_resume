@@ -1,0 +1,27 @@
+#portfolio {
+	display: grid;
+	grid-template-columns: 40% 60%;
+	/* grid-template-rows: 100px 1fr 0.5fr 1fr; */
+	grid-template-rows: 100px 30px 1fr 1fr 1fr 1fr 1fr;
+	/* grid-template-areas:
+	"header header"
+	"left-side-row-1 right-side"
+	"left-side-row-2 right-side"
+	"left-side-row-3 right-side"; */
+	grid-template-areas:
+	"header header"
+	"header-gap header-gap"
+	"left-side-row-1 right-side-row-1"
+	"left-side-row-1 right-side-row-1"
+	"left-side-row-2 right-side-row-1"
+	"left-side-row-3 right-side-row-2"
+	"left-side-row-3 right-side-row-2";
+
+	background-color: white;
+	padding: 20px;
+	margin: 0 auto;
+	height: 11in;
+	width: 8.5in;
+	box-shadow: 0 10px 16px 0;
+}
+

@@ -1,0 +1,30 @@
+.experience-container .header h4{
+	display: inline;
+	position: relative;
+	left: -20px;
+}
+
+.experience-container .header .heading-decoration {
+	color: var(--secondary-color);
+	position: relative;
+	left: -33px;
+}
+
+.experience-container .header h5 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.experience-container .header .title {
+	color: var(--secondary-color);
+}
+
+.experience-container .header .date {
+	margin-left: 20px;
+	color: var(--secondary-color);
+	font-style: italic;
+}
+
+.experience-container .body {
+	font-size: .8em;
+}

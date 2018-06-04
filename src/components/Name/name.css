@@ -1,0 +1,8 @@
+#name-container {
+	margin: auto;
+}
+
+#name-container > p {
+	line-height: .4em;
+	padding: 0;
+}

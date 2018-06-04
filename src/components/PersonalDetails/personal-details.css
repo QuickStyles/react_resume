@@ -1,0 +1,11 @@
+#personal-details {
+	grid-area: header;
+	/* background-color: var(--primary-color); */
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 100%;
+}
+
+.section {
+	justify-self: stretch;
+}

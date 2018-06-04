@@ -1,0 +1,10 @@
+#skillslist-component {
+	padding-left: 20px;
+	margin-top: 10px;
+	list-style: none;
+}
+
+#skillslist-component ul{
+	padding-left: 20px;
+	list-style: none;
+}

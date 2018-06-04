@@ -1,0 +1,21 @@
+#selfie {
+	height: 100%;
+	display: flex;
+}
+
+.circle-wrapper {
+	display: flex;
+	margin: auto;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 1px solid var(--secondary-color);
+	justify-content: center;
+	align-items: center;
+}
+
+#selfie img {
+	width: inherit;
+	height: inherit;
+	border-radius: inherit;
+}
