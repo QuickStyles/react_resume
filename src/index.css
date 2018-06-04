@@ -1,34 +1,44 @@
-/* :root {
-  --primary-color: #D3D3D3;
-  --secondary-color: #00bfff;
-  --doger-blue: #1e90ff;
-  --icon-color: #00bfff;
-} */
+/* daily blue edited */
 :root {
-  --primary-color: #022b3a;
-  --secondary-color: #1f7a8c;
-  --neatral-color: #bfdbf7;
-  --tertiary-color-one: #e1e5f2;
-  --tertiary-color-two: #F6F7FB;
+  --primary-color: #22515B;
+  --secondary-color: #5C8A93;
+  --neutral-color: #A1C6CD;
+  --tertiary-color-one: #DDB5AD;
+  --tertiary-color-two: #F3FAFB;
 }
-/* :root {
-  --primary-color: #1f7a8c;
-  --secondary-color: #022b3a;
-  --neatral-color: #bfdbf7;
-  --tertiary-color-one: #e1e5f2;
-  --tertiary-color-two: #F6F7FB;
-} */
 
-/* 2e5266-6e8898-9fb1bc-d3d0cb-e2c044 */
-/* c5fffd-88d9e6-8b8bae-526760-374b4a */
 html {
   height: auto;
 }
 body {
   margin: 0;
   padding: 20px;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   height: inherit;
   background-color: var(--secondary-color);
   min-height: 1200px;
 }
+
+/* interesting themes https://coolors.co/ */
+/* 2e5266-6e8898-9fb1bc-d3d0cb-e2c044 */
+/* c5fffd-88d9e6-8b8bae-526760-374b4a */
+/* 132a13-31572c-4f772d-90a955-ecf39e */
+/* 211a1d-6320ee-8075ff-f8f0fb-cad5ca */
+/* 553d36-684a52-857885-87a0b2-a4bef3 */
+/* ddf8e8-cdd5d1-b4a6ab-946e83-615055 */
+/* red */
+/* 2e0219-4a001f-6a0f49-a7c4c2-97efe9 */
+/* purple grey */
+/* e5d4ed-6d72c3-5941a9-514f59-1d1128 */
+/* green green green */
+/* 073b3a-0b6e4f-08a045-6bbf59-ddb771 */
+/* n blue */
+/* 336699-86bbd8-2f4858-9ee493-daf7dc */
+/* white */
+/* aaaaaa-bbbbbb-cccccc-dddddd-eeeeee */
+/* all blues */
+/* 78c0e0-449dd1-150578-0e0e52-3943b7 */
+/* crimson */
+/* e3c0d3-93808b-66565f-512c40-331224 */
+/* daily blue */
+/* 395e66-38707c-328293-2590a8-15a0bf */

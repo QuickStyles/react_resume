@@ -9,6 +9,9 @@
 	position: relative;
 	left: -33px;
 }
+.experience-container .header .position {
+	color: var(--secondary-color);
+}
 
 .experience-container .header h5 {
 	margin-top: 5px;
@@ -21,7 +24,7 @@
 
 .experience-container .header .date {
 	margin-left: 20px;
-	color: var(--secondary-color);
+	color: var(--tertiary-color-one);
 	font-style: italic;
 }
 

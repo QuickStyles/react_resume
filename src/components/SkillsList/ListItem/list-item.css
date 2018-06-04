@@ -8,8 +8,7 @@
 }
 
 .exp-number {
-	background-color: yellow;
-	border: 0.5px dotted yellow;
+	background-color: var(--tertiary-color-two);
 	border-radius: 50%;
 	padding-left: 5px;
 	padding-right: 5px;
@@ -24,5 +23,5 @@
 .list-item .icon-wrapper {
 	position: relative;
 	left: -1em;
-	color: var(--icon-color);
+	color: var(--secondary-color);
 }

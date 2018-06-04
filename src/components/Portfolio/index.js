@@ -15,7 +15,7 @@ const Portfolio = ({match}) => {
 			{ContentContainer(VisibleSkills)({title:'Skills', logo:'fas fa-pencil-alt', grid_area:'left-side-row-1'})}
 			{ContentContainer(Education)({title:'Education', logo:'fas fa-user-graduate', grid_area: 'left-side-row-2'})}
 			{ContentContainer(ExperienceContainer)({title:'Experiences', logo: 'fas fa-burn', grid_area: 'right-side-row-1'})}
-			{ContentContainer(AverageWeek)({title:'Average Day', logo:'hi', grid_area:'left-side-row-3'})}
+			{ContentContainer(AverageWeek)({title:'Average Day', logo:'far fa-clock', grid_area:'left-side-row-3'})}
 		</div>
 	)
 }

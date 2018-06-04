@@ -7,7 +7,7 @@ const Experience = ({title, position, date, context}) => {
 		<div className='experience-container'>
 			<div className='header'>
 				<span className='heading-decoration'><i className='fas fa-circle-notch'/></span>
-				<h4>{position}</h4>
+				<h4 className='position'>{position}</h4>
 				<h5>
 					<span className='title'>{title}</span>
 					<span className='date'>{date}</span>
