@@ -7,10 +7,10 @@ const Education = () => {
 		<div id='education-component'>
 			<ul>
 				<li>
-					Full Stack Web Development Certificate
+					<span className='education-name'>Full Stack Web Development Certificate</span>
 					<ul>
 						<li>
-							CodeCore Developer Bootcamp, Vancouver, British Columbia, Canada
+							<span className='school'>CodeCore Developer Bootcamp, Vancouver, British Columbia, Canada</span>
 						</li>
 					</ul>
 				</li>

@@ -7,3 +7,11 @@
 	padding-left: 20px;
 }
 
+#education-component .education-name {
+	color: var(--secondary-color);
+}
+
+/* #education-component .school {
+	color: var(--secondary-color);
+} */
+
