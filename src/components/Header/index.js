@@ -4,6 +4,6 @@ import './header.css';
 
 export default ({title}) => {
 	return(
-		<h3 className='header'>{title}</h3>
+		<h3 className='header-component'>{title}</h3>
 	)
 };
