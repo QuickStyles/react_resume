@@ -1,0 +1,15 @@
+.passion-container .header {
+	font-size: 20px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.passion-container .header h4{
+	color: var(--secondary-color);
+	display: inline;
+}
+
+.passion-container .icon {
+	float: right;
+	color: var(--neutral-color);
+}

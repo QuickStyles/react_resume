@@ -5,6 +5,7 @@ import ContentContainer from '../ContentContainer';
 import Education from '../Education';
 import ExperienceContainer from '../../container/ExperienceContainer';
 import AverageWeek from '../AverageWeek';
+import PassionList from '../PassionList';
 
 import './portfolio.css';
 
@@ -16,6 +17,7 @@ const Portfolio = ({match}) => {
 			{ContentContainer(Education)({title:'Education', logo:'fas fa-user-graduate', grid_area: 'left-side-row-2'})}
 			{ContentContainer(ExperienceContainer)({title:'Experiences', logo: 'fas fa-burn', grid_area: 'right-side-row-1'})}
 			{ContentContainer(AverageWeek)({title:'Average Day', logo:'far fa-clock', grid_area:'left-side-row-3'})}
+			{ContentContainer(PassionList)({title:'Passions', logo:'far fa-heart', grid_area:'right-side-row-2'})}
 		</div>
 	)
 }
