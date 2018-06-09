@@ -38,25 +38,30 @@ const handleClick = (name, items, filterSkill) => {
 const ListItem = ({name, items, exp, downVote, upVote, filterSkill, icon}) => {
 
 	return(
-		<li onClick={ () => {handleClick(name, items, filterSkill)}} className='list-item'>
-			<span className={icon ? 'icon-wrapper': ''}><i className={`${icon} icon`}></i></span><p className='item-name'>{name}</p>
-				{ (exp != null) ? 
-					<span className='exp-container'>
-						<span className='exp-button'>
-							<button onClick={() => {handleVote(name, upVote)}}>
-								<i className='fas fa-arrow-circle-up'/>
-							</button>
-						</span>
-						<span className='exp-number'>
-							<p>{exp}</p>	
-						</span>
-						<span className='exp-button'>
-							<button onClick={() => {handleVote(name, downVote)}}>
-								<i className='fas fa-arrow-circle-down'/>
-							</button>
-						</span>
-					</span> : ''
-				}
+		<li className='list-item'>
+			<span className={icon ? 'icon-wrapper': ''}>
+				<i className={`${icon} icon`}></i>
+			</span>
+			<p onClick={ () => {handleClick(name, items, filterSkill)}} className='item-name'>
+				{name}
+			</p>
+			{ (exp != null) ? 
+				<span className='exp-container'>
+					<span className='exp-button'>
+						<button onClick={() => {handleVote(name, upVote)}}>
+							<i className='fas fa-arrow-circle-up'/>
+						</button>
+					</span>
+					<span className='exp-number'>
+						<p>{exp}</p>	
+					</span>
+					<span className='exp-button'>
+						<button onClick={() => {handleVote(name, downVote)}}>
+							<i className='fas fa-arrow-circle-down'/>
+						</button>
+					</span>
+				</span> : ''
+			}
 			{computeItems(items, downVote, upVote, filterSkill)}
 		</li>
 	)

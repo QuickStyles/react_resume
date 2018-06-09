@@ -1,6 +1,6 @@
 // mock data
 export default {
-	filter: ["tools_&_technology"],
+	filter: 'tools_&_technology',
 	skills: [
 		{
 			id: 1,
